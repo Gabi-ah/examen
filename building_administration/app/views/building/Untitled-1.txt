@@ -1,0 +1,5 @@
+rails g model Building nombre:string direccion:string ciudad:string
+
+rails g model Apartment numero_departamento:string building:references
+
+rake db:migrate
